@@ -1,0 +1,101 @@
+.login {
+    background-color: rgb(92, 6, 153);
+
+}
+
+.purpleBg {
+    background-color: rgba(143, 68, 173, 255);
+
+}
+
+#login {
+    position: relative;
+    margin-right: 150px;
+    left: 100px;
+    margin-top: 38px;
+
+}
+
+.loginBtn:hover {
+    color: #ccc;
+    text-decoration: none;
+    opacity: .7;
+}
+
+.createBtn:hover {
+    color: #ccc;
+    text-decoration: none;
+    opacity: .7;
+}
+
+.loginBtn {
+    border-radius: 30px;
+    background-color: rgba(161, 65, 201, 255);
+    color: white;
+    padding: 28px 19px;
+    display: block;
+    text-decoration: none;
+}
+
+.border-radius-30 {
+    border-radius: 35px
+}
+
+.left {
+    padding: 100px 20px 50px;
+}
+
+.left .card-body {
+    margin-bottom: 150px;
+}
+
+.right>span {
+    text-decoration: underline rgb(123 13 202);
+}
+
+.createBtn {
+    border-radius: 30px;
+    background-color: #8f44ad;
+    color: white;
+    padding: 18px 9px;
+    display: block;
+    text-decoration: none;
+    width: 230px;
+    margin-top: 50px;
+}
+
+.bi-arrow-right {
+    position: relative;
+    right: -10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .left {
+        padding: 10px 10px 10px;
+    }
+
+    .container {
+        position: relative;
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .createBtn {
+
+        width: 75%;
+    }
+
+    .left {
+        padding: 10px 10px 10px;
+    }
+
+
+    .container {
+        position: relative;
+        right: 25px;
+        
+    }
+    
+
+}
